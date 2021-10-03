@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="GiorgiaTechLibrary_Persistence">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>GTL_API.Models.Entities.AddressEntity</class>
+        <class>GTL_API.Models.Entities.BookEntity</class>
+        <class>GTL_API.Models.Entities.BookBorrowEntity</class>
+        <class>GTL_API.Models.Entities.BookCatalogEntity</class>
+        <class>GTL_API.Models.Entities.BookConditionEntity</class>
+        <class>GTL_API.Models.Entities.BookReturnEntity</class>
+        <class>GTL_API.Models.Entities.BookTypeEntity</class>
+        <class>GTL_API.Models.Entities.CardEntity</class>
+        <class>GTL_API.Models.Entities.CoverTypeEntity</class>
+        <class>GTL_API.Models.Entities.CredentialsEntity</class>
+        <class>GTL_API.Models.Entities.FacultyMemberEntity</class>
+        <class>GTL_API.Models.Entities.FacultyMemberTypeEntity</class>
+        <class>GTL_API.Models.Entities.LanguageEntity</class>
+        <class>GTL_API.Models.Entities.LibraryEmployeeEntity</class>
+        <class>GTL_API.Models.Entities.LibraryEmployeeTypeEntity</class>
+        <class>GTL_API.Models.Entities.MapEntity</class>
+        <class>GTL_API.Models.Entities.PersonEntity</class>
+        <class>GTL_API.Models.Entities.PersonTypeEntity</class>
+        <class>GTL_API.Models.Entities.PhoneNumberEntity</class>
+        <class>GTL_API.Models.Entities.PostcodeEntity</class>
+        <class>GTL_API.Models.Entities.StudentEntity</class>
+        <class>GTL_API.Models.Entities.StudentTypeEntity</class>
+        <class>GTL_API.Models.Entities.AvailableBooksEntity</class>
+        <class>GTL_API.Models.Entities.BookReturningHistoryEntity</class>
+        <class>GTL_API.Models.Entities.DestroyedBooksEntity</class>
+        <class>GTL_API.Models.Entities.EmployeesInformationEntity</class>
+        <class>GTL_API.Models.Entities.PeopleWhoDidNotReturedBooksYetEntity</class>
+        <class>GTL_API.Models.Entities.StudentsGpaHigher3WorkingMoreThan1YearEntity</class>
+        <class>GTL_API.Models.Entities.StudentsInformationEntity</class>
+        <class>GTL_API.Models.Entities.PeopleWhoDidNotReturnedBooksYetEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:sqlserver://64.225.69.54;database=Giorgia_Tech_Library"/>
+            <property name="hibernate.connection.username" value="sa"/>
+            <property name="hibernate.connection.password" value="Password123"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
